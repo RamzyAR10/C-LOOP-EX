@@ -11,8 +11,8 @@ int main(void)
     x++;
   }
   putchar('\n');*/
-
-  int num , pow;
+//==================================================================
+  /*int num , pow;
 
   scanf("%d %d", &num,&pow);  
   int result = num;
@@ -23,7 +23,21 @@ int main(void)
     x++;
   }
 
-  printf("%d\n",result);
+  printf("%d\n",result);*/
 
+  //or
+
+  int num , pow;
+
+  scanf("%d %d", &num,&pow);  
+  int result = 1;
+  int x = 0;
+  while(x < pow) 
+  {
+    result *= num;
+    x++;
+  }
+
+  printf("%d\n",result);
   return (0);
 }
