@@ -12,6 +12,7 @@ int main(void)
     } while (grade <= 0 || grade > 100);// you must reverse the condation to loop if your condition false and getout if your condition that you reverse it become true 
 
     printf("your grade is : %d ,thanks you are greate tester (: \n",grade);
+    //*************************************************************************************
     getchar();
     char x = getc(stdin);
 
